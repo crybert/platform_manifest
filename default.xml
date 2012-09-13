@@ -5,12 +5,12 @@
            fetch="https://android.googlesource.com/" />
 
   <remote  name="gh"
-           fetch="https://github.com/"
+           fetch="git://github.com/"
            review="gerrit.aokp.co"
            revision="ics" />
 
   <remote  name="cm"
-           fetch="https://github.com/CyanogenMod/"
+           fetch="git://github.com/CyanogenMod/"
            revision="ics" />
 
   <default remote="aosp"
