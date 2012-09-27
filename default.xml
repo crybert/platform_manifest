@@ -154,7 +154,7 @@
   <project path="external/wpa_supplicant_8" name="AOKP/external_wpa_supplicant_8" remote="gh" revision="ics" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/yaffs2" name="AOKP/external_yaffs2" remote="gh" revision="ics" />
-  <project path="external/zlib" name="AOKP/external_zlib" remote="gh" revision="ics" />
+  <project path="external/zlib" name="CyanogenMod/external_zlib" remote="gh" revision="ics" />
   <project path="frameworks/base" name="crybert/frameworks_base" remote="gh" revision="ics" />
   <project path="frameworks/compile/libbcc" name="AOKP/android_frameworks_compile_libbcc" remote="gh" revision="ics" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
@@ -260,10 +260,10 @@
   <project path="vendor/qcom/opensource/kernel-tests/mm-audio" name="AOKP/vendor_qcom_opensource_kernel-tests_mm-audio" remote="gh" revision="ics" />
 
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="gh" revision="ics" />
-  <project path="system/su" name="AOKP/android_system_su" remote="gh" revision="ics" />
+  <project path="system/su" name="CyanogenMod/android_system_su" remote="gh" revision="ics" />
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="gh" revision="ics" />
   <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" remote="gh" revision="ics" />
-  <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" remote="gh" revision="ics" />
+  <!--project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" remote="gh" revision="ics" /-->
   <project path="packages/apps/GanOptimizer" name="CyanogenMod/android_packages_apps_GanOptimizer" remote="gh" revision="gb-release-7.2" />
   <project path="packages/apps/AppWidgetPicker" name="AOKP/packages_apps_AppWidgetPicker" remote="gh" revision="ics" />
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers" remote="gh" revision="ics" />
