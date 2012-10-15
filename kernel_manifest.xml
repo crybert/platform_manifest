@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="kernel/samsung/ariesve" name="crybert/samsung-kernel-msm7x30" remote="gh" revision="ics" />
+  <project path="kernel/samsung/ariesve" name="ivendor/samsung-kernel-msm7x30" remote="gh" revision="ics-3.0" />
 </manifest>
