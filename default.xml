@@ -5,11 +5,11 @@
            fetch="https://android.googlesource.com/" />
 
   <remote  name="aokp"
-           fetch="git://github.com/"
-           review="gerrit.aokp.co" />
+           fetch="https://github.com/"
+           review="gerrit.sudoservers.com" />
 
   <remote  name="cm"
-           fetch="git://github.com/CyanogenMod/"
+           fetch="https://github.com/CyanogenMod/"
            review="review.cyanogenmod.com" />
 
   <default remote="aosp"
@@ -29,11 +29,11 @@
   <project path="device/common" name="device/common" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
-  <project path="device/generic/goldfish" name="android_device_generic_goldfish" remote="cm" revision="jellybean" />
+  <project path="device/generic/goldfish" name="device/generic/goldfish" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="device/sample" name="device/sample" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
-  <project path="device/samsung/ariesve" name="crybert/device_samsung_ariesve" remote="aokp" revision="jb" />
+  <project path="device/samsung/ariesve" name="crybert/device_samsung_ariesve" remote="aokp" revision="jb" />  
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="external/aac" name="platform/external/aac" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="external/android-mock" name="platform/external/android-mock" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
@@ -214,7 +214,7 @@
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cm" revision="jellybean" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="jellybean" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cm" revision="jellybean" />
-  <project path="hardware/ril" name="android_hardware_ril" remote="cm" revision="jellybean" />
+  <project path="hardware/ril" name="AOKP/android_hardware_ril" remote="aokp" revision="jb" />
   <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="jellybean" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
@@ -257,6 +257,7 @@
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="packages/apps/Stk" name="AOKP/packages_apps_Stk" remote="aokp" revision="jb" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
+  <project path="packages/apps/Torch" name="AOKP/packages_apps_Torch" remote="aokp" revision="jb" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="packages/experimental" name="platform/packages/experimental" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
@@ -270,7 +271,7 @@
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="packages/providers/MediaProvider" name="AOKP/packages_providers_MediaProvider" remote="aokp" revision="jb" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
-  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
+  <project path="packages/providers/TelephonyProvider" name="AOKP/packages_providers_TelephonyProvider" remote="aokp" revision="jb" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
@@ -314,7 +315,7 @@
 
   <project path="vendor/aokp" name="crybert/vendor_aokp" remote="aokp" revision="jb" />
   <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="jb" />
-  <project path="vendor/samsung/ariesve" name="crybert/vendor_samsung_ariesve" remote="aokp" revision="jb" />
+  <project path="vendor/samsung/ariesve" name="ivendor/vendor_samsung_ariesve" remote="aokp" revision="jellybean" />
 
   <project path="system/su" name="android_system_su" remote="cm" revision="jellybean" />
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="jb" />
